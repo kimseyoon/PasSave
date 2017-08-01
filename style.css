@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body, html, div, p, table, tr, th, td, ul, li, h1, h2{
+  margin: 0;
+  padding:0;
+  font-size:18px;
+  line-height: 24px;
+  color:#666;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body{
+  width:350px;
+  height:400px;
+}
+
+button{
+  cursor: pointer;
+  border:none;
+}
+
+.wrap{
+  width:100%;
+  height:100%;
+  background-color: #f7f8fa;
+}
+
+.loginRegister, .loginInfo{
+  display: none;
+}
+
+.loginRegister.select, .loginInfo.select{
+  display: block;
+}
+
+.loginRegister header{
+  padding:25px 0px;
+  border:1px solid #16a085;
+  background-color:#0fb695;
+  box-shadow :0px 2px 5px #666;
+}
+
+.loginRegister h1{
+  text-align: center;
+  color:#fff;
+  font-size:2rem;
+  font-weight:bold;
+}
+
+.loginRegister .infoTbl{
+  width:250px;
+  margin:30px auto;
+  padding:30px;
+  border:1px solid #f9efbe;
+  background-color:#fff9dc;
+  box-shadow :0px 2px 5px #666;
+}
+
+.loginRegister .infoTbl input[type="text"]{
+  width:calc(100% - 20px);
+  margin-bottom:5px;
+  padding:10px;
+  color:#999;
+  border:2px solid #f9efbe;
+  background-color:#fff;
+}
+
+.loginRegister footer{
+  text-align: center;
+}
+
+.loginRegister footer button{
+  padding:5px 15px;
+  color:#fff;
+  font-size:1rem;
+  font-weight: bold;
+  border:none;
+  border-radius: 2px;
+  background-color: #cbcbcb;
+}
+
+.loginRegister footer button:hover{
+  opacity: 0.6;
+}
+
+.loginInfo header{
+  padding:5px 0px;
+  border:1px solid #16a085;
+  background-color:#0fb695;
+  box-shadow :0px 2px 5px #666;
+}
+
+.loginInfo h1{
+  text-align: center;
+  color:#fff;
+  font-size:0.9rem;
+  font-weight:bold;
+}
+
+.loginInfo .infoListWrap{
+  overflow: auto;
+  margin:10px auto;
+  width:300px;
+  height:280px;
+  padding:10px;
+  border:1px solid #f9efbe;
+  background-color:#fff9dc;
+  box-shadow :0px 2px 5px #666;
+}
+
+.loginInfo .infoListWrap .loginInfoList li{
+  position: relative;
+  margin-top:8px;
+  padding:8px;
+  font-size:0.9rem;
+  background-color:#fff;
+  box-shadow :0px 2px 5px #666;
+}
+
+.loginInfo .infoListWrap .loginInfoList li:first-child{
+  margin-top:0;
+}
+
+.loginInfo .infoListWrap .loginInfoList li p{
+  font-size:0.8rem;
+}
+
+.loginInfo .infoListWrap .loginInfoList li button{
+  position: absolute;
+  top:25px;
+  right:10px;
+  padding:10px;
+  color:#fff;
+  border-radius: 3px;
+}
+
+.loginInfo footer{
+  text-align: center;
+}
+
+.loginInfo footer button{
+  padding:5px 15px;
+  color:#fff;
+  font-size:1rem;
+  font-weight: bold;
+  border:none;
+  border-radius: 2px;
+  background-color: #cbcbcb;
+}

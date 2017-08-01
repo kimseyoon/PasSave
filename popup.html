@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>passave</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- <h2>접속한 웹사이트에 등록된 로그인정보가 없습니다.</h2>
+      <h2>접속하신 웹사이트의 로그인정보 입니다.</h2> -->
+
+      <section class="loginRegister content">
+        <header>
+          <h1>PasSave</h1>
+        </header>
+        <table class="infoTbl">
+          <tr>
+            <td><input type="text" name="website" id="website" placeholder="별명을 입력해주세요"/></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="id" id="web_id" placeholder="아이디를 입력해주세요"/></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="password" id="web_password" placeholder="비밀번호를 입력해주세요"/></td>
+          </tr>
+        </table>
+        <footer>
+          <button id="registerBtn" type="button" name="button">등록하기</button>
+          <button id="backToInfoBtn" type="button" name="button">목록으로</button>
+        </footer>
+      </section>
+
+      <section class="loginInfo content">
+        <header>
+          <h1>등록하신 로그인 정보 입니다</h1>
+        </header>
+        <div class="infoListWrap">
+          <ul class="loginInfoList">
+          </ul>
+        </div>
+        <footer>
+          <button id="addBtn" type="button" name="button">추가 등록하기</button>
+        </footer>
+      </section>
+
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>
